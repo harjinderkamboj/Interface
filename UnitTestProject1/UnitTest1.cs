@@ -8,10 +8,11 @@ namespace UnitTestProject1
 	[TestClass]
 	public class UnitTest1
 	{
+		private Mock<IRService> mock;
 		[TestMethod]
 		public void TestMethod1()
 		{
-			var mock = new Moq.Mock<IRService>();
+			mock = new Moq.Mock<IRService>();
 			mock.Setup(f => f.AddOne(2)).Returns(3);
 			IRService i = mock.Object;
 			//i = new RService();
@@ -26,5 +27,7 @@ namespace UnitTestProject1
 			i = new RService();
 			Assert.AreEqual(2, i.AddOne(1));
 		}
+
+		
 	}
 }
