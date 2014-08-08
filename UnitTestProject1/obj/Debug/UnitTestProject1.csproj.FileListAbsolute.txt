@@ -1,0 +1,9 @@
+c:\users\hkamboj\documents\visual studio 2012\Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+c:\users\hkamboj\documents\visual studio 2012\Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+c:\users\hkamboj\documents\visual studio 2012\Projects\ConsoleApplication1\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+c:\users\hkamboj\documents\visual studio 2012\Projects\ConsoleApplication1\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+c:\users\hkamboj\documents\visual studio 2012\Projects\ConsoleApplication1\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+c:\users\hkamboj\documents\visual studio 2012\Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\ClassLibrary1.dll
+c:\users\hkamboj\documents\visual studio 2012\Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\ClassLibrary1.pdb
+c:\users\hkamboj\documents\visual studio 2012\Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\Moq.dll
+c:\users\hkamboj\documents\visual studio 2012\Projects\ConsoleApplication1\UnitTestProject1\bin\Debug\Moq.xml

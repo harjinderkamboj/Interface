@@ -6,3 +6,6 @@ c:\users\hkamboj\documents\visual studio 2012\Projects\ConsoleApplication1\Conso
 c:\users\hkamboj\documents\visual studio 2012\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
 c:\users\hkamboj\documents\visual studio 2012\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ClassLibrary1.dll
 c:\users\hkamboj\documents\visual studio 2012\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ClassLibrary1.pdb
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
