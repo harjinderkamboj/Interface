@@ -8,17 +8,25 @@ namespace UnitTestProject1
 	[TestClass]
 	public class UnitTest1
 	{
-		private Mock<IRService> mock;
+		private static Mock<IRService> mock;
+
+		[ClassInitialize()]
+		public static void ClassInit(TestContext context)
+		{
+			mock = new Moq.Mock<IRService>();
+		}
+
 		[TestMethod]
 		public void TestMethod1()
 		{
-			mock = new Moq.Mock<IRService>();
+			//Setup();
 			mock.Setup(f => f.AddOne(2)).Returns(3);
 			IRService i = mock.Object;
 			//i = new RService();
 			Assert.AreEqual(3, i.AddOne(2));
 			//mock.Verify(f => f.AddOne(2), Times.AtLeast(2));
 		}
+
 
 		[TestMethod]
 		public void TestMethod2()
