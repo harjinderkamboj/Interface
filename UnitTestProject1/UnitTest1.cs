@@ -10,8 +10,14 @@ namespace UnitTestProject1
 	{
 		private static Mock<IRService> mock;
 
+		public static Mock<IRService> Mock
+		{
+			get { return UnitTest1.mock; }
+			set { UnitTest1.mock = value; }
+		}
+
 		[ClassInitialize()]
-		public static void ClassInit(TestContext context)
+		public static void ClassSetup(TestContext context)
 		{
 			mock = new Moq.Mock<IRService>();
 		}
