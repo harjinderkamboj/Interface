@@ -3,8 +3,8 @@ using Castle.Windsor.Installer;
 using ClassLibrary1;
 using Dal;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Moq;
 using Ninject;
+using Rhino.Mocks;
 using System;
 
 namespace UnitTestProject1
@@ -12,7 +12,7 @@ namespace UnitTestProject1
 	[TestClass]
 	public class UnitTest1
 	{
-		private static Mock<IPersonRepository> mockPersonRepository;
+		//private static Mock<IPersonRepository> mockPersonRepository;
 
 		public int MyProperty { get; set; }
 
@@ -20,20 +20,26 @@ namespace UnitTestProject1
 		[ClassInitialize()]
 		public static void ClassSetup(TestContext context)
 		{
-			mockPersonRepository = new Moq.Mock<IPersonRepository>();
+			//mockPersonRepository = new Moq.Mock<IPersonRepository>();
 		}
 
 		[TestMethod]
 		public void TestMethod1()
 		{
-			var kernel = BindWithNinject();
+			//var kernel = BindWithNinject();
 
 			//IRService i = kernel.Get<IRService>();
-			var mock = new Moq.Mock<IRService>();
-			mock.Setup(f => f.GetDataFromPR(2)).Returns("You said 2");
+			//var mock = new Moq.Mock<IRService>();
+			//mock.Setup(f => f.GetDataFromPR(2)).Returns("You said 2");
 			//mockPersonRepository.Setup(f => f.getById(2)).Returns("You said 2");
-			IRService i = kernel.Get<IRService>();
+			//IRService i = kernel.Get<IRService>();
 			//i = new RService();
+
+			var mock = MockRepository.GenerateMock<IPersonRepository>();
+			mock.Stub(x => x.getById(2)).Return("You said 2");
+
+			var i = new RService(mock);
+
 			Assert.AreEqual("You said 2", i.GetDataFromPR(2));
 			//mock.Verify(f => f.AddOne(2), Times.AtLeast(2));
 		}

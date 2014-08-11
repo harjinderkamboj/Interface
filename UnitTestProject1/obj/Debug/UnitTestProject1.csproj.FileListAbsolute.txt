@@ -24,3 +24,5 @@ C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Inter
 C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\UnitTestProject1\bin\Debug\Castle.Windsor.xml
 C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\UnitTestProject1\bin\Debug\Ninject.dll
 C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\UnitTestProject1\bin\Debug\Ninject.xml
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\UnitTestProject1\bin\Debug\Rhino.Mocks.dll
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\UnitTestProject1\bin\Debug\Rhino.Mocks.xml
