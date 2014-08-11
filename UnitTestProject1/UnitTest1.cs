@@ -26,18 +26,24 @@ namespace UnitTestProject1
 		[TestMethod]
 		public void TestMethod1()
 		{
-			//windsor();
-			//Setup();
-			var kernel = new StandardKernel();
-			kernel.Bind<IPersonRepository>().To<PersonRepository>();
-			kernel.Bind<IRService>().To<RService>();
+			var kernel = BindWithNinject();
+
+			//IRService i = kernel.Get<IRService>();
+			var mock = new Moq.Mock<IRService>();
+			mock.Setup(f => f.GetDataFromPR(2)).Returns("You said 2");
 			//mockPersonRepository.Setup(f => f.getById(2)).Returns("You said 2");
-
-
 			IRService i = kernel.Get<IRService>();
 			//i = new RService();
 			Assert.AreEqual("You said 2", i.GetDataFromPR(2));
 			//mock.Verify(f => f.AddOne(2), Times.AtLeast(2));
+		}
+
+		private static StandardKernel BindWithNinject()
+		{
+			var kernel = new StandardKernel();
+			kernel.Bind<IPersonRepository>().To<PersonRepository>();
+			kernel.Bind<IRService>().To<RService>();
+			return kernel;
 		}
 
 
