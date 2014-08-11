@@ -8,8 +8,9 @@ namespace ClassLibrary1
 {
 	public interface IRService
 	{
-		string getResponse(string req);
+		string GetResponse(string req);
 
 		int AddOne(int p);
+		string GetDataFromPR(int id);
 	}
 }

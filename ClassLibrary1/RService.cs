@@ -1,8 +1,20 @@
-﻿namespace ClassLibrary1
+﻿using Dal;
+namespace ClassLibrary1
 {
     public class RService : IRService	
     {
-		string IRService.getResponse(string req)
+		private IPersonRepository _personRepository;
+
+		//public RService()
+		//{
+		//	_personRepository = new PersonRepository();
+		//}
+		public RService(IPersonRepository personRepository)
+		{
+			_personRepository = personRepository;
+		}
+
+		string IRService.GetResponse(string req)
 		{
 			return string.Format("hello {0}", req);
 		}
@@ -12,5 +24,11 @@
 		{
 			return p + 1;
 		}
+
+		public string GetDataFromPR(int id)
+		{
+			return _personRepository.getById(id);
+		}
+
 	}
 }

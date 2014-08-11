@@ -1,35 +1,42 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Castle.Windsor;
+using Castle.Windsor.Installer;
 using ClassLibrary1;
+using Dal;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
+using Ninject;
+using System;
 
 namespace UnitTestProject1
 {
 	[TestClass]
 	public class UnitTest1
 	{
-		private static Mock<IRService> mock;
+		private static Mock<IPersonRepository> mockPersonRepository;
 
-		public static Mock<IRService> Mock
-		{
-			get { return UnitTest1.mock; }
-			set { UnitTest1.mock = value; }
-		}
+		public int MyProperty { get; set; }
+
 
 		[ClassInitialize()]
 		public static void ClassSetup(TestContext context)
 		{
-			mock = new Moq.Mock<IRService>();
+			mockPersonRepository = new Moq.Mock<IPersonRepository>();
 		}
 
 		[TestMethod]
 		public void TestMethod1()
 		{
+			//windsor();
 			//Setup();
-			mock.Setup(f => f.AddOne(2)).Returns(3);
-			IRService i = mock.Object;
+			var kernel = new StandardKernel();
+			kernel.Bind<IPersonRepository>().To<PersonRepository>();
+			kernel.Bind<IRService>().To<RService>();
+			//mockPersonRepository.Setup(f => f.getById(2)).Returns("You said 2");
+
+
+			IRService i = kernel.Get<IRService>();
 			//i = new RService();
-			Assert.AreEqual(3, i.AddOne(2));
+			Assert.AreEqual("You said 2", i.GetDataFromPR(2));
 			//mock.Verify(f => f.AddOne(2), Times.AtLeast(2));
 		}
 
@@ -38,10 +45,28 @@ namespace UnitTestProject1
 		public void TestMethod2()
 		{
 			IRService i;
-			i = new RService();
-			Assert.AreEqual(2, i.AddOne(1));
+			//i = new RService();
+			//Assert.AreEqual(2, i.AddOne(1));
 		}
 
-		
+
+		public void windsor()
+		{
+			//application starts...
+			var container = new WindsorContainer();
+
+			// adds and configures all components using WindsorInstallers from executing assembly
+			container.Install(FromAssembly.This());
+
+			// instantiate and configure root component and all its dependencies and their dependencies and...
+			var personRepository = container.Resolve<IPersonRepository>();
+			//personRepository.getById();
+
+			// clean up, application exits
+			container.Dispose();
+		}
+	
 	}
+
+
 }

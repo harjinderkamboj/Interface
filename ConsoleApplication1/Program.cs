@@ -11,20 +11,20 @@ namespace ConsoleApplication1
 {
     class Program 
     {
-		private static IRService inf;
+		//private static IRService inf;
 
 
-		public Program(IRService inf)
-		{
-			inf = new RService();
-		}
+		//public Program(IRService inf)
+		//{
+		//	inf = new RService();
+		//}
 
 		static void Main(string[] args)
-        {
-			inf = new RService();
-			Console.WriteLine(inf.AddOne(1));
+		{
+		//	inf = new RService();
+		//	Console.WriteLine(inf.AddOne(1));
 			Console.ReadLine();
 
-        }
+		}
     }
 }
