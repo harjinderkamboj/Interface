@@ -22,7 +22,7 @@ namespace UnitTestProject1
 		{
 
 			var mock = MockRepository.GenerateMock<IPersonRepository>();
-			mock.Stub(x => x.getById(2)).Return("You said 2");
+			mock.Stub(x => x.getById(2)).Return("You said 4");
 
 			var i = new RService(mock);
 
