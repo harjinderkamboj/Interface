@@ -12,3 +12,17 @@ C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Inter
 C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\obj\Debug\ClientApplication.csprojResolveAssemblyReference.cache
 C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Harjinder\Documents\GitHub\Interface\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Harjinder\Documents\GitHub\Interface\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Harjinder\Documents\GitHub\Interface\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Harjinder\Documents\GitHub\Interface\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Harjinder\Documents\GitHub\Interface\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Harjinder\Documents\GitHub\Interface\ConsoleApplication1\bin\Debug\ClassLibrary1.dll
+C:\Users\Harjinder\Documents\GitHub\Interface\ConsoleApplication1\bin\Debug\Ninject.dll
+C:\Users\Harjinder\Documents\GitHub\Interface\ConsoleApplication1\bin\Debug\Shared.dll
+C:\Users\Harjinder\Documents\GitHub\Interface\ConsoleApplication1\bin\Debug\Dal.dll
+C:\Users\Harjinder\Documents\GitHub\Interface\ConsoleApplication1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Harjinder\Documents\GitHub\Interface\ConsoleApplication1\bin\Debug\Shared.pdb
+C:\Users\Harjinder\Documents\GitHub\Interface\ConsoleApplication1\bin\Debug\Ninject.xml
+C:\Users\Harjinder\Documents\GitHub\Interface\ConsoleApplication1\bin\Debug\Dal.pdb
+C:\Users\Harjinder\Documents\GitHub\Interface\ConsoleApplication1\obj\Debug\ClientApplication.csprojResolveAssemblyReference.cache

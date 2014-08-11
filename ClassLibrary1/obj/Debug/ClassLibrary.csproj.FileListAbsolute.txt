@@ -1,0 +1,7 @@
+C:\Users\Harjinder\Documents\GitHub\Interface\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\Harjinder\Documents\GitHub\Interface\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Harjinder\Documents\GitHub\Interface\ClassLibrary1\bin\Debug\Dal.dll
+C:\Users\Harjinder\Documents\GitHub\Interface\ClassLibrary1\bin\Debug\Dal.pdb
+C:\Users\Harjinder\Documents\GitHub\Interface\ClassLibrary1\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Harjinder\Documents\GitHub\Interface\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\Harjinder\Documents\GitHub\Interface\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

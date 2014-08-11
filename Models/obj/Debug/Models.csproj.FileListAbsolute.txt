@@ -1,0 +1,5 @@
+C:\Users\Harjinder\Documents\GitHub\Interface\Models\bin\Debug\Models.dll
+C:\Users\Harjinder\Documents\GitHub\Interface\Models\bin\Debug\Models.pdb
+C:\Users\Harjinder\Documents\GitHub\Interface\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\Users\Harjinder\Documents\GitHub\Interface\Models\obj\Debug\Models.dll
+C:\Users\Harjinder\Documents\GitHub\Interface\Models\obj\Debug\Models.pdb
