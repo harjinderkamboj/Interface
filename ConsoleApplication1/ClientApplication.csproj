@@ -52,9 +52,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary.csproj">
       <Project>{77624507-21c6-4f17-bbb5-a9faa4b59552}</Project>
-      <Name>ClassLibrary1</Name>
+      <Name>ClassLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="..\Shared\Shared.csproj">
       <Project>{a4d03378-09b8-4484-bb4a-315331aab339}</Project>

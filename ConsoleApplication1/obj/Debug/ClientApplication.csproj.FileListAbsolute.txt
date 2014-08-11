@@ -1,0 +1,14 @@
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\bin\Debug\ClassLibrary1.dll
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\bin\Debug\Ninject.dll
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\bin\Debug\Shared.dll
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\bin\Debug\Dal.dll
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\bin\Debug\ClassLibrary1.pdb
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\bin\Debug\Shared.pdb
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\bin\Debug\Ninject.xml
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\bin\Debug\Dal.pdb
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\obj\Debug\ClientApplication.csprojResolveAssemblyReference.cache
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

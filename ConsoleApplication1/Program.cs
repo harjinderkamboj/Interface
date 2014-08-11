@@ -12,13 +12,19 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Program 
+    public class Program 
     {
+		private static IKernel _Kernal;
+
+		public static void LoadNinject()
+		{
+			_Kernal = new StandardKernel();
+			_Kernal.Load(Assembly.GetAssembly(typeof(NinjectBindings)));
+		}
 
 		static void Main(string[] args)
 		{
-			IKernel _Kernal = new StandardKernel();
-			_Kernal.Load(Assembly.GetAssembly(typeof(NinjectBindings)));
+			LoadNinject();
 
 			IRService i = _Kernal.Get<IRService>();
 

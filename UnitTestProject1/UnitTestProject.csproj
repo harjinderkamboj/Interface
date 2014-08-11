@@ -64,9 +64,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary.csproj">
       <Project>{77624507-21c6-4f17-bbb5-a9faa4b59552}</Project>
-      <Name>ClassLibrary1</Name>
+      <Name>ClassLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="..\Dal\Dal.csproj">
       <Project>{d8a50c3e-1db8-4954-8762-28a00e380978}</Project>
