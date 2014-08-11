@@ -14,19 +14,19 @@ namespace ConsoleApplication1
 {
     public class Program 
     {
-		private static IKernel _Kernal;
+		private static IKernel _kernal;
 
 		public static void LoadNinject()
 		{
-			_Kernal = new StandardKernel();
-			_Kernal.Load(Assembly.GetAssembly(typeof(NinjectBindings)));
+			_kernal = new StandardKernel();
+			_kernal.Load(Assembly.GetAssembly(typeof(NinjectBindings)));
 		}
 
 		static void Main(string[] args)
 		{
 			LoadNinject();
 
-			IRService i = _Kernal.Get<IRService>();
+			IRService i = _kernal.Get<IRService>();
 
 			Console.WriteLine(i.GetDataFromPR(2));
 			Console.ReadLine();

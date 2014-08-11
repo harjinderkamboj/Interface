@@ -16,10 +16,10 @@ namespace UnitTestProject1
 		public void TestMethod1()
 		{
 
-			var mock = MockRepository.GenerateMock<IPersonRepository>();
-			mock.Stub(x => x.getById(2)).Return("You said 2");
+			var mockPersonRepository = MockRepository.GenerateMock<IPersonRepository>();
+			mockPersonRepository.Stub(x => x.getById(2)).Return("You said 2");
 
-			var i = new RService(mock);
+			var i = new RService(mockPersonRepository);
 
 			Assert.AreEqual("You said 2", i.GetDataFromPR(2));
 		}
