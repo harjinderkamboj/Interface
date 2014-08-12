@@ -1,4 +1,5 @@
 ﻿using Dal;
+using Models;
 namespace ClassLibrary1
 {
     public class RService : IRService	
@@ -25,7 +26,7 @@ namespace ClassLibrary1
 			return p + 1;
 		}
 
-		public string GetDataFromPR(int id)
+		public Person GetDataFromPR(int id)
 		{
 			return _personRepository.getById(id);
 		}

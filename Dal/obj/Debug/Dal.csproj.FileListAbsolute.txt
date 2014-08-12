@@ -13,3 +13,10 @@ C:\Users\Harjinder\Documents\GitHub\Interface\Dal\bin\Debug\EntityFramework.SqlS
 C:\Users\Harjinder\Documents\GitHub\Interface\Dal\obj\Debug\Dal.csprojResolveAssemblyReference.cache
 C:\Users\Harjinder\Documents\GitHub\Interface\Dal\obj\Debug\Dal.dll
 C:\Users\Harjinder\Documents\GitHub\Interface\Dal\obj\Debug\Dal.pdb
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Dal\bin\Debug\Dal.dll.config
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Dal\bin\Debug\EntityFramework.dll
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Dal\bin\Debug\Models.dll
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Dal\bin\Debug\Models.pdb
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Dal\bin\Debug\EntityFramework.xml
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Dal\bin\Debug\EntityFramework.SqlServer.xml

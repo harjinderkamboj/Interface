@@ -3,6 +3,7 @@ using Castle.Windsor.Installer;
 using ClassLibrary1;
 using Dal;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Models;
 using Rhino.Mocks;
 using System;
 
@@ -17,11 +18,11 @@ namespace UnitTestProject1
 		{
 
 			var mockPersonRepository = MockRepository.GenerateMock<IPersonRepository>();
-			mockPersonRepository.Stub(x => x.getById(2)).Return("You asked 2");
+			mockPersonRepository.Stub(x => x.getById(2)).Return(new Person{FirstName="Hifirst"});
 
 			var i = new RService(mockPersonRepository);
 
-			Assert.AreEqual("You asked 2", i.GetDataFromPR(2));
+			Assert.AreEqual("Hifirst", i.GetDataFromPR(2).FirstName);
 		}
 
 	

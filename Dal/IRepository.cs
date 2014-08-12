@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Dal
 {
-	public interface IRepository
+	public interface IRepository<T>
 	{
+		T GetById(int id);
 	}
 }

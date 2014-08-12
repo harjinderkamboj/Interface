@@ -56,6 +56,10 @@
       <Project>{77624507-21c6-4f17-bbb5-a9faa4b59552}</Project>
       <Name>ClassLibrary</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{62425c60-472a-4b18-a135-cd7e079611a6}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Shared\Shared.csproj">
       <Project>{a4d03378-09b8-4484-bb4a-315331aab339}</Project>
       <Name>Shared</Name>

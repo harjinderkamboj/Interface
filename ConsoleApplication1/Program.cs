@@ -7,6 +7,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using Models;
 
 	
 
@@ -28,7 +29,7 @@ namespace ConsoleApplication1
 
 			IRService i = _kernal.Get<IRService>();
 
-			Console.WriteLine(i.GetDataFromPR(2));
+			Console.WriteLine(i.GetDataFromPR(2).FirstName);
 			Console.ReadLine();
 		}
 

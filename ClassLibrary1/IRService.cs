@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,6 @@ namespace ClassLibrary1
 		string GetResponse(string req);
 
 		int AddOne(int p);
-		string GetDataFromPR(int id);
+		Person GetDataFromPR(int id);
 	}
 }

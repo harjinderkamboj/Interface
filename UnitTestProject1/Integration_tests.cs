@@ -18,7 +18,7 @@ namespace UnitTestProject1
 
             IPersonRepository p = new PersonRepository();
 
-            Assert.AreEqual("You requested 2", p.getById(2));
+            Assert.AreEqual("Firsty", p.getById(2).FirstName);
         }
 
 
