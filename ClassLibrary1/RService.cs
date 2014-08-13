@@ -1,5 +1,5 @@
 ﻿using Dal;
-using Models;
+
 namespace ClassLibrary1
 {
     public class RService : IRService	

@@ -3,7 +3,6 @@ using Castle.Windsor.Installer;
 using ClassLibrary1;
 using Dal;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Models;
 using Rhino.Mocks;
 using System;
 

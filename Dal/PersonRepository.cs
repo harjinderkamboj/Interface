@@ -1,9 +1,10 @@
-﻿using Models;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace Dal
 {
@@ -12,7 +13,7 @@ namespace Dal
 		public Person GetById(int id)
 		{
 			//return new Person { PersonId = id, FirstName = "Firsty", LastName = "Lasty", Age = 30 };
-			using (var db = new PersonContext())
+			using (var db = new UsersContext())
 			{
 				var query = from p in db.Persons
 							where p.PersonId == id

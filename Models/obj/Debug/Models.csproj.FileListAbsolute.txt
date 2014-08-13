@@ -8,3 +8,8 @@ C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Inter
 C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
 C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Models\obj\Debug\Models.dll
 C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Models\obj\Debug\Models.pdb
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Models\bin\Debug\Models.dll.config
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Models\bin\Debug\EntityFramework.dll
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Models\bin\Debug\EntityFramework.xml
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Models\bin\Debug\EntityFramework.SqlServer.xml
