@@ -28,7 +28,7 @@ namespace ClassLibrary1
 
 		public Person GetDataFromPR(int id)
 		{
-			return _personRepository.getById(id);
+			return _personRepository.GetById(id);
 		}
 
 	}

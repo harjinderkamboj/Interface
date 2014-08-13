@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Dal
 {
-	public interface IPersonRepository //: IRepository<Person>
+	public interface IPersonRepository : IRepository<Person>
 	{
-		Person getById(int id);
+		Person GetById(int id);
 	}
 }

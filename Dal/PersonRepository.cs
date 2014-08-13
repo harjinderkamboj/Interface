@@ -9,7 +9,7 @@ namespace Dal
 {
 	public class PersonRepository : IPersonRepository
 	{
-		public Person getById(int id)
+		public Person GetById(int id)
 		{
 			//return new Person { PersonId = id, FirstName = "Firsty", LastName = "Lasty", Age = 30 };
 			using (var db = new PersonContext())

@@ -18,7 +18,7 @@ namespace UnitTestProject1
 		{
 
 			var mockPersonRepository = MockRepository.GenerateMock<IPersonRepository>();
-			mockPersonRepository.Stub(x => x.getById(2)).Return(new Person{FirstName="Hifirst"});
+			mockPersonRepository.Stub(x => x.GetById(2)).Return(new Person{FirstName="Hifirst"});
 
 			var i = new RService(mockPersonRepository);
 

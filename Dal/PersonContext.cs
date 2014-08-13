@@ -10,6 +10,7 @@ namespace Dal
 {
 	public class PersonContext : DbContext
 	{
+		public PersonContext() : base("name=Person_Entities") { }
 		public DbSet<Person> Persons { get; set; }
 	}
 }
