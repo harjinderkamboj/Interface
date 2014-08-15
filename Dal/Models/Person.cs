@@ -10,13 +10,13 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Dal
 {
 	[Table("Person")]
-	public class Person
+	public class Restaurant
     {
 		[Key]
 		[DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
-		public int PersonId { get; set; }
-		public string FirstName { get; set; }
-		public string LastName { get; set; }
-		public int Age { get; set; }
+		public int Id { get; set; }
+		public string Name { get; set; }
+		public string City { get; set; }
+		public int Capacity { get; set; }
     }
 }

@@ -8,19 +8,19 @@ using System.Threading.Tasks;
 
 namespace Dal
 {
-	public class PersonRepository : IPersonRepository
+	public class RestaurantRepository : IRestaurantRepository
 	{
-		public Person GetById(int id)
+		public Restaurant GetById(int id)
 		{
-			//return new Person { PersonId = id, FirstName = "Firsty", LastName = "Lasty", Age = 30 };
-			using (var db = new UsersContext())
-			{
-				var query = from p in db.Persons
-							where p.PersonId == id
-							select p;
+			return new Restaurant { Id = id, Name = "Firsty", City = "Lasty", Capacity = 30 };
+			//using (var db = new UsersContext())
+			//{
+			//	var query = from p in db.Persons
+			//				where p.PersonId == id
+			//				select p;
 
-				return query.FirstOrDefault();
-			}
+			//	return query.FirstOrDefault();
+			//}
 			
 			
 			

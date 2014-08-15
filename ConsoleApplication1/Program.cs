@@ -1,4 +1,4 @@
-﻿using ClassLibrary1;
+﻿using RestaurantApplication.Services;
 using Ninject;
 using Shared;
 using System;
@@ -26,9 +26,9 @@ namespace ConsoleApplication1
 		{
 			LoadNinject();
 
-			IRService i = _kernal.Get<IRService>();
+			IRestaurantService i = _kernal.Get<IRestaurantService>();
 
-			Console.WriteLine(i.GetDataFromPR(2).FirstName);
+			Console.WriteLine(i.GetDataFromPR(2).Name);
 			Console.ReadLine();
 		}
 

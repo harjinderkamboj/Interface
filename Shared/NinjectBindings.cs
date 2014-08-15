@@ -1,4 +1,4 @@
-﻿using ClassLibrary1;
+﻿using RestaurantApplication.Services;
 using Dal;
 using System;
 using System.Collections.Generic;
@@ -12,8 +12,8 @@ namespace Shared
 	{
 		public override void Load()
 		{
-			Bind<IPersonRepository>().To<PersonRepository>();
-			Bind<IRService>().To<RService>();
+			Bind<IRestaurantRepository>().To<RestaurantRepository>();
+			Bind<IRestaurantService>().To<RestaurantService>();
 
 		}
 	}

@@ -1,0 +1,13 @@
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Shared\bin\Debug\Shared.dll
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Shared\bin\Debug\Shared.pdb
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Shared\bin\Debug\ClassLibrary1.dll
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Shared\bin\Debug\Dal.dll
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Shared\bin\Debug\Ninject.dll
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Shared\bin\Debug\EntityFramework.dll
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Shared\bin\Debug\ClassLibrary1.pdb
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Shared\bin\Debug\Dal.pdb
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Shared\bin\Debug\Ninject.xml
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Shared\bin\Debug\EntityFramework.xml
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Shared\obj\Debug\RestaurantApp.Shared.csprojResolveAssemblyReference.cache
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Shared\obj\Debug\Shared.dll
+C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Shared\obj\Debug\Shared.pdb

@@ -54,17 +54,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\ClassLibrary.csproj">
+    <ProjectReference Include="..\ClassLibrary1\RestaurantApp.Services.csproj">
       <Project>{77624507-21c6-4f17-bbb5-a9faa4b59552}</Project>
-      <Name>ClassLibrary</Name>
+      <Name>RestaurantApp.Services</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Dal\Dal.csproj">
+    <ProjectReference Include="..\Dal\RestaurantApp.Dal.csproj">
       <Project>{d8a50c3e-1db8-4954-8762-28a00e380978}</Project>
-      <Name>Dal</Name>
+      <Name>RestaurantApp.Dal</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Shared\Shared.csproj">
+    <ProjectReference Include="..\Shared\RestaurantApp.Shared.csproj">
       <Project>{a4d03378-09b8-4484-bb4a-315331aab339}</Project>
-      <Name>Shared</Name>
+      <Name>RestaurantApp.Shared</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

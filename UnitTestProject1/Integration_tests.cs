@@ -1,6 +1,6 @@
 ﻿using Castle.Windsor;
 using Castle.Windsor.Installer;
-using ClassLibrary1;
+using RestaurantApplication.Services;
 using Dal;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Rhino.Mocks;
@@ -13,12 +13,12 @@ namespace UnitTestProject1
     {
 
         [TestMethod]
-        public void Test_Person_Repository()
+        public void Test_Restaurant_Repository()
         {
 
-            IPersonRepository p = new PersonRepository();
+            IRestaurantRepository p = new RestaurantRepository();
 
-            Assert.AreEqual("Firsty", p.GetById(2).FirstName);
+            Assert.AreEqual("Firsty", p.GetById(2).Name);
         }
 
 

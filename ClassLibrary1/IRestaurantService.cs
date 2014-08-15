@@ -6,13 +6,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassLibrary1
+namespace RestaurantApplication.Services
 {
-	public interface IRService
+	public interface IRestaurantService
 	{
 		string GetResponse(string req);
 
 		int AddOne(int p);
-		Person GetDataFromPR(int id);
+		Restaurant GetDataFromPR(int id);
 	}
 }

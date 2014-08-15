@@ -11,6 +11,6 @@ namespace Dal
 	public class UsersContext : DbContext
 	{
 		public UsersContext() : base("name=DefaultConnection") { }
-		public DbSet<Person> Persons { get; set; }
+		public DbSet<Restaurant> Persons { get; set; }
 	}
 }

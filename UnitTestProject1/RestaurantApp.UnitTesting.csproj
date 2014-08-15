@@ -61,17 +61,17 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Integration_tests.cs" />
-    <Compile Include="Tests_ClassLibrary.cs" />
+    <Compile Include="Tests_RestaurantService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\ClassLibrary.csproj">
+    <ProjectReference Include="..\ClassLibrary1\RestaurantApp.Services.csproj">
       <Project>{77624507-21c6-4f17-bbb5-a9faa4b59552}</Project>
-      <Name>ClassLibrary</Name>
+      <Name>RestaurantApp.Services</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Dal\Dal.csproj">
+    <ProjectReference Include="..\Dal\RestaurantApp.Dal.csproj">
       <Project>{d8a50c3e-1db8-4954-8762-28a00e380978}</Project>
-      <Name>Dal</Name>
+      <Name>RestaurantApp.Dal</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -1,21 +1,21 @@
 ﻿using Dal;
 
-namespace ClassLibrary1
+namespace RestaurantApplication.Services
 {
-    public class RService : IRService	
+    public class RestaurantService : IRestaurantService	
     {
-		private IPersonRepository _personRepository;
+		private IRestaurantRepository _personRepository;
 
 		//public RService()
 		//{
 		//	_personRepository = new PersonRepository();
 		//}
-		public RService(IPersonRepository personRepository)
+		public RestaurantService(IRestaurantRepository personRepository)
 		{
 			_personRepository = personRepository;
 		}
 
-		string IRService.GetResponse(string req)
+		string IRestaurantService.GetResponse(string req)
 		{
 			return string.Format("hello {0}", req);
 		}
@@ -26,7 +26,7 @@ namespace ClassLibrary1
 			return p + 1;
 		}
 
-		public Person GetDataFromPR(int id)
+		public Restaurant GetDataFromPR(int id)
 		{
 			return _personRepository.GetById(id);
 		}

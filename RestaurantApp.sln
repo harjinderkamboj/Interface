@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApplication", "ConsoleApplication1\ClientApplication.csproj", "{5DA7B42F-07C0-4A8E-83CA-88E242CA57B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantApp.Client", "ConsoleApplication1\RestaurantApp.Client.csproj", "{5DA7B42F-07C0-4A8E-83CA-88E242CA57B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary1\ClassLibrary.csproj", "{77624507-21C6-4F17-BBB5-A9FAA4B59552}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantApp.Services", "ClassLibrary1\RestaurantApp.Services.csproj", "{77624507-21C6-4F17-BBB5-A9FAA4B59552}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTesting", "UnitTestProject1\UnitTesting.csproj", "{2A523452-7333-4EB2-978F-3AA81FB0EB97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantApp.UnitTesting", "UnitTestProject1\RestaurantApp.UnitTesting.csproj", "{2A523452-7333-4EB2-978F-3AA81FB0EB97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dal", "Dal\Dal.csproj", "{D8A50C3E-1DB8-4954-8762-28A00E380978}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantApp.Dal", "Dal\RestaurantApp.Dal.csproj", "{D8A50C3E-1DB8-4954-8762-28A00E380978}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{A4D03378-09B8-4484-BB4A-315331AAB339}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantApp.Shared", "Shared\RestaurantApp.Shared.csproj", "{A4D03378-09B8-4484-BB4A-315331AAB339}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
