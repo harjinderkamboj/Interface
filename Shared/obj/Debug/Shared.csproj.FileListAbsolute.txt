@@ -22,3 +22,5 @@ C:\Users\Harjinder\Documents\GitHub\Interface\Shared\obj\Debug\Shared.dll
 C:\Users\Harjinder\Documents\GitHub\Interface\Shared\obj\Debug\Shared.pdb
 C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Shared\bin\Debug\EntityFramework.dll
 C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\Shared\bin\Debug\EntityFramework.xml
+C:\Users\Harjinder\Documents\GitHub\Interface\Shared\bin\Debug\EntityFramework.dll
+C:\Users\Harjinder\Documents\GitHub\Interface\Shared\bin\Debug\EntityFramework.xml

@@ -28,3 +28,5 @@ C:\Users\Harjinder\Documents\GitHub\Interface\ConsoleApplication1\bin\Debug\Dal.
 C:\Users\Harjinder\Documents\GitHub\Interface\ConsoleApplication1\obj\Debug\ClientApplication.csprojResolveAssemblyReference.cache
 C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\bin\Debug\EntityFramework.dll
 C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ConsoleApplication1\bin\Debug\EntityFramework.xml
+C:\Users\Harjinder\Documents\GitHub\Interface\ConsoleApplication1\bin\Debug\EntityFramework.dll
+C:\Users\Harjinder\Documents\GitHub\Interface\ConsoleApplication1\bin\Debug\EntityFramework.xml

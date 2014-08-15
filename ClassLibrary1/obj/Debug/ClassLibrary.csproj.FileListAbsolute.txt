@@ -14,3 +14,5 @@ C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Inter
 C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ClassLibrary1\bin\Debug\Dal.pdb
 C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ClassLibrary1\bin\Debug\EntityFramework.xml
 C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\Harjinder\Documents\GitHub\Interface\ClassLibrary1\bin\Debug\EntityFramework.dll
+C:\Users\Harjinder\Documents\GitHub\Interface\ClassLibrary1\bin\Debug\EntityFramework.xml

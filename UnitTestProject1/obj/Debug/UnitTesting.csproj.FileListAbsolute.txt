@@ -30,3 +30,5 @@ C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Inter
 C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\UnitTestProject1\bin\Debug\Rhino.Mocks.xml
 C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\UnitTestProject1\bin\Debug\EntityFramework.xml
 C:\Users\hkamboj\Documents\Visual Studio 2012\Projects\ConsoleApplication1\Interface\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+C:\Users\Harjinder\Documents\GitHub\Interface\UnitTestProject1\bin\Debug\EntityFramework.dll
+C:\Users\Harjinder\Documents\GitHub\Interface\UnitTestProject1\bin\Debug\EntityFramework.xml
